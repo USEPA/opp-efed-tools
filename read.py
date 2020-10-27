@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from dbfread import DBF, FieldParser
-from tools.efed_lib import report
+from .efed_lib import report
 
 
 def dbf(dbf_file):
