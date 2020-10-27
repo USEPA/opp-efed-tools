@@ -5,7 +5,7 @@ import numpy as np
 from collections import Iterable
 from tempfile import mkstemp
 import time
-
+#test
 class MemoryMatrix(object):
     """ A wrapper for NumPy 'memmap' functionality which allows the storage and recall of arrays from disk """
 
