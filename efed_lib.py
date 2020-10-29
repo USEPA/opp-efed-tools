@@ -5,7 +5,8 @@ import numpy as np
 from collections import Iterable
 from tempfile import mkstemp
 import time
-#test
+import logging
+
 class MemoryMatrix(object):
     """ A wrapper for NumPy 'memmap' functionality which allows the storage and recall of arrays from disk """
 
@@ -408,3 +409,4 @@ def report(message, tabs=0):
     """ Display a message with a specified indentation """
     tabs = "\t" * tabs
     print(tabs + str(message))
+    logging.info(tabs + str(message))
