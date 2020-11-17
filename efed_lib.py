@@ -2,7 +2,7 @@ import os
 import re
 import pandas as pd
 import numpy as np
-from collections import Iterable
+from collections.abc import Iterable
 from tempfile import mkstemp
 import time
 import logging
